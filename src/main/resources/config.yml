@@ -1,0 +1,19 @@
+# ██████╗░███████╗░██████╗██╗░██████╗░███╗░░██╗███████╗██████╗░        ███╗░░░███╗░█████╗░██████╗░███████╗
+# ██╔══██╗██╔════╝██╔════╝██║██╔════╝░████╗░██║██╔════╝██╔══██╗        ████╗░████║██╔══██╗██╔══██╗██╔════╝
+# ██║░░██║█████╗░░╚█████╗░██║██║░░██╗░██╔██╗██║█████╗░░██████╔╝        ██╔████╔██║██║░░██║██║░░██║█████╗░░
+# ██║░░██║██╔══╝░░░╚═══██╗██║██║░░╚██╗██║╚████║██╔══╝░░██╔══██╗        ██║╚██╔╝██║██║░░██║██║░░██║██╔══╝░░
+# ██████╔╝███████╗██████╔╝██║╚██████╔╝██║░╚███║███████╗██║░░██║        ██║░╚═╝░██║╚█████╔╝██████╔╝███████╗
+# ╚═════╝░╚══════╝╚═════╝░╚═╝░╚═════╝░╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝        ╚═╝░░░░░╚═╝░╚════╝░╚═════╝░╚══════╝
+
+# Blocks that should be disabled from taking out from the creative inventory, even if sold in the shop.
+# You can find a list of all block types here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+disabledBlocks:
+  - BEDROCK
+
+# If fly should be enabled for all the players in designer mode by default. This is bypassed with the permission: designermode.fly
+flyEnabled: false
+
+# True if the following list should be the world's designer mode is allowed in, or false if it should be the worlds it is not allowed in.
+worldWhitelist: false
+selectedWorlds:
+  - 'disabled-world'

@@ -1,0 +1,63 @@
+# ██████╗░███████╗░██████╗██╗░██████╗░███╗░░██╗███████╗██████╗░        ███╗░░░███╗░█████╗░██████╗░███████╗
+# ██╔══██╗██╔════╝██╔════╝██║██╔════╝░████╗░██║██╔════╝██╔══██╗        ████╗░████║██╔══██╗██╔══██╗██╔════╝
+# ██║░░██║█████╗░░╚█████╗░██║██║░░██╗░██╔██╗██║█████╗░░██████╔╝        ██╔████╔██║██║░░██║██║░░██║█████╗░░
+# ██║░░██║██╔══╝░░░╚═══██╗██║██║░░╚██╗██║╚████║██╔══╝░░██╔══██╗        ██║╚██╔╝██║██║░░██║██║░░██║██╔══╝░░
+# ██████╔╝███████╗██████╔╝██║╚██████╔╝██║░╚███║███████╗██║░░██║        ██║░╚═╝░██║╚█████╔╝██████╔╝███████╗
+# ╚═════╝░╚══════╝╚═════╝░╚═╝░╚═════╝░╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝        ╚═╝░░░░░╚═╝░╚════╝░╚═════╝░╚══════╝
+
+messages:
+  # Prefix for all the messages below
+  prefix: "&6&lDESIGNER MODE &8»"
+
+  # Message sent when the player doesn't have permission to do something.
+  noPermission: "&cYou don't have permission to do this."
+
+  # Message for when the player tries to access the mode from a blacklisted / not whitelisted world.
+  disabledWorld: "&eDesigner Mode is disabled in this world."
+
+  # The message sent when the player tries to place a block that the player can't afford to buy from the shop.
+  cantAfford: "&eYou can't afford to place this block."
+
+  # The message being sent when the player tries to place a block that isn't available in the shop.
+  blockNotEnabled: "&7This block is not available in the shop."
+
+  # Message being sent to the player when they try to do something that they can't do while in designer mode, like opening chests.
+  cantDoThis: "&eYou cannot do this while you're in designer mode."
+
+  # Action bar being showed to the player while they're in designer mode. This turns off when they exit.
+  designerModeActionBar: "&eType &6/designermode &eto exit designer mode."
+
+  # Message being sent when a player turns Designer Mode on.
+  toggleDesignerModeOn: "&aYou are now in Designer Mode, type &2/designermode &ato turn off."
+
+  # Message when the player turns Designer Mode off.
+  toggleDesignerModeOff: "&cYou are no longer in Designer Mode."
+
+  # Message when an Administrator turns Designer Mode on for another player.
+  toggleDesignerModeOnOther:
+
+    message: "&aYou turned Designer Mode on for &2%player%"
+    placeholders: [ "player" ] # Don't touch this unless you know what you're doing.
+
+  # Message when an Administrator turns Designer Mode off for another player.
+  toggleDesignerModeOffOther:
+
+    message: "&cYou turned Designer Mode off for &2%player%"
+    placeholders: [ "player" ] # Don't touch this unless you know what you're doing.
+
+  # Message being sent when an admin tries to enable designer mode for a player that's not online.
+  playerNotFound:
+
+    message: "&cThe player %player% is not online on the server currently."
+    placeholders: [ "player" ] # Don't touch this unless you know what you're doing.
+
+  # Message being sent when a non-player (e.g. console) when they try to execute an only-player command.
+  only-player: "&cOnly players can execute this command."
+
+  help:
+    - '&8» &8&m----------------------- &6&lDesignerMode &8&m----------------------- &8«'
+    - ' '
+    - '&7∙ &eUsage:'
+    - '&7∙ &e/designermode - toggles Designer Mode.'
+    - '&7∙ &e/designermode <player> - toggles for another player.'
+    - '&7∙ &e/designermode help - shows this message.'

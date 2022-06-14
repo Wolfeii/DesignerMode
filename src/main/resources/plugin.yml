@@ -1,0 +1,10 @@
+name: DesignerMode
+version: '${project.version}'
+main: com.wolfeiii.designermode.DesignerMode
+api-version: 1.18
+softdepend: [ ShopGUIPlus, GUIShop, EconomyShopGUI, Shop, UltimateShops ]
+authors: [ Wolfeiii ]
+description: Plugin that allows players to temporarily switch to creative mode in order to design their builds.
+commands:
+  designermode:
+    description: main command
